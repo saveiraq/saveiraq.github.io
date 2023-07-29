@@ -20,7 +20,7 @@ body {
 }
 
 .top-nav {
-    background-color: #333; /* You can choose your desired background color */
+    background-color: #333; 
     padding: 10px;
 }
 
@@ -41,18 +41,17 @@ body {
 
 .top-nav a {
     text-decoration: none;
-    color: #fff; /* You can choose your desired link text color */
+    color: #fff; 
     font-size: 18px;
 }
 
 .top-nav a:hover {
-    color: #ffcc00; /* You can choose your desired link text color on hover */
+    color: #ffcc00; 
 }
 
-/* Add the following CSS rules to style the projects.html page */
 
 .project {
-    margin-bottom: 30px; /* Add spacing between projects */
+    margin-bottom: 30px;
 }
 
 .project h2 {
