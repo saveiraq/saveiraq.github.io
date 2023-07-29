@@ -1,0 +1,64 @@
+/* CSS for both index.html and contact.html */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Your Beautiful Font', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.centered-text {
+    text-align: center;
+    font-size: 36px;
+}
+
+.top-nav {
+    background-color: #333; /* You can choose your desired background color */
+    padding: 10px;
+}
+
+.top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.top-nav li:last-child {
+    margin-right: 0;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #fff; /* You can choose your desired link text color */
+    font-size: 18px;
+}
+
+.top-nav a:hover {
+    color: #ffcc00; /* You can choose your desired link text color on hover */
+}
+
+/* Add the following CSS rules to style the projects.html page */
+
+.project {
+    margin-bottom: 30px; /* Add spacing between projects */
+}
+
+.project h2 {
+    font-size: 24px;
+}
+
+.project p {
+    font-size: 18px;
+}
