@@ -18,7 +18,7 @@ function search() {
   console.log('Birth Date:', birthDate);
 
   // Make a request to the server with the search query
-  fetch(`/search?firstName=${encodeURIComponent(firstName)}&fatherName=${encodeURIComponent(fatherName)}&grandfatherName=${encodeURIComponent(grandfatherName)}&birthDate=${encodeURIComponent(birthDate)}`)
+  fetch(`/?firstName=${encodeURIComponent(firstName)}&fatherName=${encodeURIComponent(fatherName)}&grandfatherName=${encodeURIComponent(grandfatherName)}&birthDate=${encodeURIComponent(birthDate)}`)
     .then((response) => response.json())
     .then((data) => {
       console.log('Search Results:', data);
