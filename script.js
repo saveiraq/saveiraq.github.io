@@ -73,7 +73,8 @@ function search() {
       }
     })
     .catch((error) => {
-      console.error('Error:', error);
-    });
+          console.error('Fetch Error:', error);
+          // Optionally, display an error message to the user or handle the error gracefully
+        });
 }
 
