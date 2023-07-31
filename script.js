@@ -1,4 +1,4 @@
-// script.js
+// script.js 2
 
 document.addEventListener('DOMContentLoaded', function () {
   // Add the click event listener to the search button
