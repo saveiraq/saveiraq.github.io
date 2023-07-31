@@ -72,8 +72,8 @@ document.addEventListener('DOMContentLoaded', function () {
           searchResultsContainer.style.display = 'block';
         }
       })
-      //.catch((error) => {
-      //  console.error('Error:', error);
-      //});
+      .catch((error) => {
+        console.error('Error:', error);
+      });
   }
   
